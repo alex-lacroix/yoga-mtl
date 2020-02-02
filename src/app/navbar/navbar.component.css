@@ -1,0 +1,53 @@
+/* ----------------- NAVBAR ----------------- */
+
+#navbar {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.32) 0,
+    rgba(0, 0, 0, 0.08) 67%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 5000;
+}
+
+.navbar-list {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  font-size: 13px;
+  font-weight: 500;
+  justify-content: space-around;
+  letter-spacing: 1px;
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.navbar-list li {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.navbar-list li:hover {
+  border-bottom: solid 1px #fff;
+}
+
+.lang-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  margin-right: 3em;
+  padding: 30px;
+}
+
+.logo {
+  margin-left: 3em;
+  width: 9em;
+}

@@ -22,3 +22,9 @@
   margin: 0 25em 5em;
   text-align: center;
 }
+
+#about hr {
+  border-color: #fff;
+  margin-bottom: 2em;
+  width: 8%;
+}
