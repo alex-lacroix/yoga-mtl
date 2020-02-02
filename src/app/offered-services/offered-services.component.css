@@ -1,0 +1,62 @@
+/* ----------------- SERVICES ----------------- */
+
+#services h2 {
+  color: #555555;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#services h3 {
+  color: #555555;
+  font-size: 1em;
+  line-height: 2em;
+  margin: 0 25em 5em;
+  text-align: center;
+}
+
+#services hr {
+  width: 8em;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.service {
+  background-color: #f7f7f7;
+  height: 20em;
+  text-align: center;
+  width: 100%;
+  margin: 0em 5em;
+  padding-top: 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #555555;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+.service-content {
+  text-align: left;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.fa-spa {
+  color: #66abb7;
+  font-size: 3em;
+  margin: 0.5em;
+}

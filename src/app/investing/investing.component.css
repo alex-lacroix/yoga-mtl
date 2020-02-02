@@ -1,0 +1,49 @@
+/* ----------------- INVESTING ----------------- */
+
+#investing {
+  background-image: url("../../assets/img/CYoga5.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+#investing .overlay {
+  background-color: #555555;
+  height: 80vh;
+  opacity: 55%;
+}
+
+#investing h2 {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  z-index: 9999;
+}
+
+#investing h3 {
+  color: #ffffff;
+  font-size: 1em;
+  line-height: 2em;
+  margin: 0 25em 5em;
+  text-align: center;
+  z-index: 9999;
+}
+
+#investing hr {
+  width: 8em;
+}
+
+.investing-content {
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  top: 45%;
+  transform: translateY(-50%);
+}

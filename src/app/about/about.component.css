@@ -1,0 +1,24 @@
+/* ----------------- ABOUT ----------------- */
+
+#about {
+  background-color: #5c6164;
+}
+
+#about h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#about h3 {
+  color: #fff;
+  font-size: 1em;
+  line-height: 2em;
+  margin: 0 25em 5em;
+  text-align: center;
+}

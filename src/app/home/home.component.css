@@ -1,6 +1,7 @@
 #home {
   animation: hue 0s infinite linear;
   animation-timing-function: ease-in-out;
+  background-image: url("../../assets/img/CYoga1.jpg");
   backface-visibility: hidden;
   background-position: center center;
   background-repeat: no-repeat;
@@ -88,4 +89,21 @@
   left: 3em;
   padding: 0;
   border-radius: 50%;
+}
+
+/* ----------------- FONT AWESOME ----------------- */
+
+.fa-chevron-left {
+  cursor: pointer;
+  padding: 9px 12px;
+}
+
+.fa-chevron-right {
+  cursor: pointer;
+  padding: 9px 12px;
+}
+
+.fa-chevron-down {
+  color: #fff;
+  margin-left: 5px;
 }
