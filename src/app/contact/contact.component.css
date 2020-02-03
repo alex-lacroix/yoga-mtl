@@ -1,0 +1,17 @@
+#contact {
+  background-color: #555555;
+  height: 80vh;
+  width: 100%;
+}
+
+.contact-logo {
+  height: 10em;
+}
+
+.footer {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.7em;
+  margin-left: -50%;
+}
