@@ -1,11 +1,21 @@
 <div id="navbar">
   <img class="logo" src="../../assets/img/CYLogoSimple.svg" />
   <ul class="navbar-list">
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Services</li>
-    <li>Testimonies</li>
-    <li>Contact</li>
+    <li (click)="scrollToHome()">
+      Home
+    </li>
+    <li (click)="scrollToAbout()">
+      About Us
+    </li>
+    <li (click)="scrollToServices()">
+      Services
+    </li>
+    <li (click)="scrollToTestimonies()">
+      Testimonies
+    </li>
+    <li (click)="scrollToContact()">
+      Contact
+    </li>
   </ul>
   <button class="lang-btn">FR | EN</button>
 </div>

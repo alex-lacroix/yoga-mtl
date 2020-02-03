@@ -1,11 +1,40 @@
 #contact {
   background-color: #555555;
-  height: 80vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  text-align: center;
   width: 100%;
 }
 
 .contact-logo {
-  height: 10em;
+  height: 15em;
+}
+
+.logo-container {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 2em;
+  left: 4em;
+}
+
+#contact hr {
+  border-color: #fff;
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+#contact h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .footer {
@@ -13,5 +42,33 @@
   display: flex;
   flex-direction: column;
   font-size: 0.7em;
-  margin-left: -50%;
+  margin-top: 15em;
+}
+
+.facebook-btn,
+.linked-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0 0.5em;
+}
+
+.email-btn {
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 3px;
+  color: #555;
+  cursor: pointer;
+  height: 2.2em;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 12em;
+}
+
+.fa-facebook,
+.fa-linkedin {
+  color: #ffffff;
+  font-size: 2em;
 }
