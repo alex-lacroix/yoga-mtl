@@ -40,7 +40,6 @@
   height: initial;
   text-align: center;
   width: 100%;
-  margin: 0em 12em;
   padding-top: 3em;
   text-align: center;
   display: flex;
@@ -59,7 +58,7 @@
 
 .service-content {
   font-size: 0.9em;
-  text-align: left;
+  text-align: center;
   padding-left: 3em;
   padding-right: 3em;
 }
@@ -70,4 +69,10 @@
   color: #66abb7;
   font-size: 3em;
   margin: 0.5em;
+}
+
+.fa-circle {
+  color: #66abb7;
+  font-size: 0.4em;
+  margin: 2em;
 }
