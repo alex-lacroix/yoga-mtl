@@ -1,21 +1,25 @@
 <div id="navbar">
-  <img class="logo" src="../../assets/img/CYLogoSimple.svg" />
-  <ul class="navbar-list">
-    <li (click)="scrollToHome()">
-      Home
-    </li>
-    <li (click)="scrollToAbout()">
-      About Us
-    </li>
-    <li (click)="scrollToServices()">
-      Services
-    </li>
-    <li (click)="scrollToTestimonies()">
-      Testimonies
-    </li>
-    <li (click)="scrollToContact()">
-      Contact
-    </li>
-  </ul>
-  <button class="lang-btn">FR | EN</button>
+  <div style="margin: 0 auto; display: flex;">
+    <div>
+      <ul class="navbar-list">
+        <li (click)="scrollToAbout()">
+          About Us
+        </li>
+        <li (click)="scrollToServices()">
+          Services
+        </li>
+      </ul>
+    </div>
+    <img class="logo" src="../../assets/img/CYLogoSimple.svg" />
+    <div>
+      <ul class="navbar-list">
+        <li (click)="scrollToTestimonies()">
+          Testimonials
+        </li>
+        <li (click)="scrollToContact()">
+          Contact
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>

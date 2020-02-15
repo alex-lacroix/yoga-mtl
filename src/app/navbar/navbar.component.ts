@@ -22,16 +22,16 @@ export class NavbarComponent implements OnInit {
 
   scrollToAbout() {
     let elem = document.getElementById("about");
-    elem.scrollIntoView({ block: "end", behavior: "smooth" });
+    elem.scrollIntoView({ block: "start", behavior: "smooth" });
   }
 
   scrollToServices() {
     let elem = document.getElementById("services");
-    elem.scrollIntoView({ block: "end", behavior: "smooth" });
+    elem.scrollIntoView({ block: "start", behavior: "smooth" });
   }
 
   scrollToTestimonies() {
     let elem = document.getElementById("testimony-carousel");
-    elem.scrollIntoView({ block: "end", behavior: "smooth" });
+    elem.scrollIntoView({ block: "start", behavior: "smooth" });
   }
 }

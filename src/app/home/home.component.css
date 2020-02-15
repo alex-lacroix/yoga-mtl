@@ -27,7 +27,7 @@
   z-index: 9999;
   left: 0;
   right: 0;
-  top: 57%;
+  top: 61%;
   transform: translateY(-50%);
 }
 
@@ -54,16 +54,16 @@
 #home h2 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 4em;
+  font-size: 4.5em;
   font-weight: 200;
   margin-bottom: 0.8em;
 }
 
 .contact-btn {
-  background-color: #fff;
+  background-color: transparent;
   border: solid 1px #fff;
-  border-radius: 3px;
-  color: #555;
+  border-radius: 0px;
+  color: #ffffff;
   cursor: pointer;
   height: 2.2em;
   font-family: "Montserrat", sans-serif;
@@ -74,7 +74,7 @@
 }
 
 .scroll-down {
-  bottom: -12em;
+  bottom: -11em;
   color: #fff;
   cursor: pointer;
   font-size: 1em;

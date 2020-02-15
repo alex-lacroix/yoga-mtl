@@ -54,10 +54,10 @@
 }
 
 .email-btn {
-  background-color: #fff;
+  background-color: transparent;
   border: solid 1px #fff;
-  border-radius: 3px;
-  color: #555;
+  border-radius: 0px;
+  color: #ffffff;
   cursor: pointer;
   height: 2.2em;
   font-family: "Montserrat", sans-serif;
